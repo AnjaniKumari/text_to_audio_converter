@@ -5,6 +5,7 @@ Libraries used:
 
 Functions defined:
   1.read_pdf Function:
+  
     •	Takes a file path as input.
     •	Opens the PDF file in binary mode (rb).
     •	Creates a PdfReader object using PyPDF2.
@@ -12,6 +13,7 @@ Functions defined:
     •	Returns a list of strings, each containing the text from a page.
   
   2.text_to_speech Function:
+  
     •	Takes text and an optional language parameter (default: 'en').
     •	It has logic for handling both a list of text (from PDF) and a single string (direct text).
     •	Creates a gTTS object using the provided text and language.
