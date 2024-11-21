@@ -2,6 +2,7 @@ Libraries used:
   1.	gtts: Used for converting text to speech.
   2.	playsound: Used for playing the generated audio file.
   3.	PyPDF2: Used for reading text from PDF files (if applicable).
+
 Functions defined:
   1.read_pdf Function:
     •	Takes a file path as input.
